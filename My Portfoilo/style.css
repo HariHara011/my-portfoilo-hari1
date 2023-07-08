@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("images/bannerBgImage.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.neon-button {
+    display: inline-block; 
+    padding: 12px 40px; background-image: linear-gradient(to right,
+    rgb(18, 194, 233),
+    rgb(196, 113, 237), rgb(246, 79, 89));
+    cursor: pointer;
+    }
+    
+.neon-button:hover { 
+    animation: glow 2s linear infinite;
+}
+    
+@keyframes glow{ 
+    50%{box-shadow: 5px 5px 20px rgb(16, 214, 13),-5px 5px 20px rgb(85, 19, 210);}
+    50% {box-shadow: 5px 5px 20px rgb(6, 6, 232),-5px 5px 20px rgb(239, 9, 216)}
+    100%{box-shadow: 5px 5px 20px rgb(93, 52, 
+  168),-5px 5px 20px rgb(93, 52, 168)}
+ }
+
+ 
+  
+
+
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: wheat;
+    border: 2px solid cornsilk;
+} 
+ 
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 4px solid rgb(89, 98, 234);
+}
+
+.card-img-top{
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
+
